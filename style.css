@@ -1,0 +1,69 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #9f2089;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.banner {
+  padding: 50px;
+  text-align: center;
+  background: #f8d7f1;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.cat-card {
+  background: #ffe6f2;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.login-box {
+  width: 300px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.login-box input, .login-box button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}

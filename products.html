@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <h2>Meesho</h2>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="cart.html">Cart (<span id="cartCount">0</span>)</a>
+  </div>
+</nav>
+
+<section class="products-grid">
+
+  <div class="product-card">
+    <img src="images/dress.jpg">
+    <h3>Ethnic Dress</h3>
+    <p>₹599</p>
+    <button onclick="addToCart(599)">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/shoes.jpg">
+    <h3>Shoes</h3>
+    <p>₹799</p>
+    <button onclick="addToCart(799)">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/bag.jpg">
+    <h3>Handbag</h3>
+    <p>₹999</p>
+    <button onclick="addToCart(999)">Add to Cart</button>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
